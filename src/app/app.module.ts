@@ -15,6 +15,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { ClienteListaComponent } from './clientes/cliente-lista/cliente-lista.component';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { ClienteService } from './clientes/cliente.service';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { ClienteService } from './clientes/cliente.service';
   ],
   imports: [
     BrowserModule, FormsModule, NoopAnimationsModule, MatInputModule, MatCardModule, MatButtonModule, MatToolbarModule, MatExpansionModule,
-    HttpClientModule,
+    HttpClientModule,AppRoutingModule,
   ],
   providers: [ClienteService],
   bootstrap: [AppComponent]

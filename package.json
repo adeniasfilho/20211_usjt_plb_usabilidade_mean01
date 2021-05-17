@@ -23,12 +23,15 @@
     "@angular/platform-browser-dynamic": "~11.2.8",
     "@angular/router": "~11.2.8",
     "express": "^4.17.1",
+    "mogoose": "^0.0.1-security",
+    "mongodb": "^3.6.6",
+    "mongoose": "^5.12.9",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^0.1102.12",
+    "@angular-devkit/build-angular": "^0.901.15",
     "@angular/cli": "~11.2.7",
     "@angular/compiler-cli": "~11.2.8",
     "@types/jasmine": "~3.6.0",
